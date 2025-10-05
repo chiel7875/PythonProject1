@@ -1,7 +1,9 @@
-n = 1
-m = "*"
-while n<=5:
+n = 10
 
-  print(m)
-  n = n + 1
-  m = m + "*"
+def prime(n):
+    if (n % 5 == 0):
+        print(n)
+        return True
+
+    else:
+        return False
